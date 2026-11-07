@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS settings (
 
 -- Default Initial Data: Superadmin (password: admin123)
 INSERT INTO users (id, username, password, name, role, owner_id) 
-VALUES ('super_root', 'studiojopay', '$2y$12$uOc8r8ClLqCWV5xOL1o6suq4UbiBNhkqqK0nAIQtrU0nlQ9zNDuXq', 'Admin Sistem SaaS', 'superadmin', 'system')
+VALUES ('super_root', 'tkhadmin', '$2y$12$uOc8r8ClLqCWV5xOL1o6suq4UbiBNhkqqK0nAIQtrU0nlQ9zNDuXq', 'Admin Sistem SaaS', 'superadmin', 'system')
 ON DUPLICATE KEY UPDATE name=VALUES(name);
 
 -- Default Initial Data: Owner Toko Pertama (TKH Laundry)
