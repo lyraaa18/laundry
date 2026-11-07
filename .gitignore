@@ -1,0 +1,19 @@
+# Abaikan folder database lokal agar data transaksi tidak ter-upload ke GitHub
+data/
+backup/
+scratch/
+usr/
+.claude/
+*.zip
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+
+# File temporary & OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+
